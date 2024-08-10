@@ -41,7 +41,7 @@ img {
     width: 100%;
 }
 
-.cart{
+.cart, .casual-main {
     margin-top: 4rem;
 }
 
@@ -119,12 +119,15 @@ nav {
     align-items: center;
     gap: 5rem;
 }
+
 .offer-container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.offer-container h2 {
+
+.offer-container h2,
+.card-content h2 {
     color: rgb(54, 57, 88);
     font-weight: 700;
     margin-bottom: .5rem;
@@ -140,4 +143,39 @@ nav {
     padding: 1.625rem;
     gap: .8rem;
     align-items: center;
+}
+
+/* card */
+.Casual-backpack h1{
+    font-size: 3rem;
+}
+.casual {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.card{
+    padding: 1.2rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.card-img, .card-content p {
+    margin-bottom: .5rem;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: rgb(118, 194, 126);
+}
+
+.card-img {
+    padding: 1rem;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px
 }

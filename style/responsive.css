@@ -7,6 +7,9 @@
         flex-direction: column;
         text-align: center;
     }
+    .casual{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 @media screen and (max-width:576px) {
     .menu{
@@ -19,6 +22,9 @@
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 5rem;
         gap: 2rem;
+    }
+    .casual{
+        grid-template-columns: repeat(1, 1fr);
     }
 
     
