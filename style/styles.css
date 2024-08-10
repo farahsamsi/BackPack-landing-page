@@ -28,3 +28,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+img{
+    width: 100%;
+}
+
+/* Shared styles */
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+/* navbar related styles */
+header{
+    background-color: rgb(255, 255, 244);
+}
+nav{
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.brand-name{
+    max-width: 16rem;
+}
+.nav-items{
+    gap: 3.5rem;
+}
+.nav-items p{
+    font-weight: 500;
+}
+.menu{
+    display: none;
+}

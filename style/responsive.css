@@ -1,10 +1,11 @@
 @media screen and (max-width:768px) {
-    h1{
-        background-color: blue;
-    }
+    
 }
 @media screen and (max-width:576px) {
-    h1{
-        background-color: red;
+    .menu{
+        display: block;
+    }
+    .nav-items{
+        display: none;
     }
 }
