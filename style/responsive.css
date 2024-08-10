@@ -1,5 +1,12 @@
 @media screen and (max-width:768px) {
-    
+    .cart{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .offer{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 @media screen and (max-width:576px) {
     .menu{
@@ -13,4 +20,6 @@
         padding-bottom: 5rem;
         gap: 2rem;
     }
+
+    
 }
