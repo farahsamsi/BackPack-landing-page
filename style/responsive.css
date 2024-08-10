@@ -8,4 +8,9 @@
     .nav-items{
         display: none;
     }
+    .banner-main {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 5rem;
+        gap: 2rem;
+    }
 }

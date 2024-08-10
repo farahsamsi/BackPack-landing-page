@@ -15,52 +15,96 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     font-size: 5rem;
+    line-height: 5rem;
+    color: rgb(54, 57, 88);
 }
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.625rem;
-  font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.625rem;
+    font-weight: 700;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-section{
+
+section {
     max-width: 1090px;
     margin: 0 auto;
     padding: 0 .5rem;
 }
-img{
+
+img {
     width: 100%;
 }
 
 /* Shared styles */
-.flex{
+.flex {
     display: flex;
     align-items: center;
 }
 
+.grid {
+    display: grid;
+}
+
+.btn-primary{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: rgb(42, 30, 89);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    gap: .5rem;
+}
+
 
 /* navbar related styles */
-header{
+header {
     background-color: rgb(255, 255, 244);
 }
-nav{
+
+nav {
     justify-content: space-between;
     padding-top: 3rem;
 }
-.brand-name{
+
+.brand-name {
     max-width: 16rem;
 }
-.nav-items{
+
+.nav-items {
     gap: 3.5rem;
 }
-.nav-items p{
+
+.nav-items p {
     font-weight: 500;
 }
-.menu{
+
+.menu {
     display: none;
+}
+
+/* banner related styles */
+.banner-main {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.banner-text-container p {
+    color: rgb(62, 62, 62);
+    line-height: 1.5rem;
+    margin: 1.25rem 0 1.75rem 0;
+}
+
+.banner-img-container {
+    background-image: url(../Logo/green.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
