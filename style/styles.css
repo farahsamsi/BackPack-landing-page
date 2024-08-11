@@ -112,6 +112,8 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    max-width: 469px;
 }
 
 /* cart */
@@ -146,8 +148,9 @@ nav {
 }
 
 /* card */
-.Casual-backpack h1{
+.casual-main>h1{
     font-size: 3rem;
+    margin-bottom: 2rem;
 }
 .casual {
     display: grid;
@@ -166,6 +169,7 @@ nav {
 .price {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card h1 {
