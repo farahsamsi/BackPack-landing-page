@@ -147,6 +147,10 @@ nav {
     align-items: center;
 }
 
+.mobile-version{
+    display: none;
+}
+
 /* card */
 .casual-main>h1{
     font-size: 3rem;
